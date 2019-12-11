@@ -1,0 +1,187 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Dec 01 19:32:58 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>322 seconds (322054 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.vtiger.contactTest.CreateContactWithValidDataTest.createContactWithValidDataTest()'><b>createContactWithValidDataTest</b><br>Test class: com.vtiger.contactTest.CreateContactWithValidDataTest<br/>
+<a href="#Output-1361921411" onClick='toggleBox("Output-1361921411", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1361921411" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1361921411">
+CreateContactWithValidData Validated successfully<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>com.vtiger.contactTest.CreateContactWithValidDataTest@69b0fd6f</td></tr>
+<tr>
+<td title='com.vtiger.contactTest.CreateContactWithoutMandatoryDetailsTest.createContactWithoutMandatoryDetailsTest()'><b>createContactWithoutMandatoryDetailsTest</b><br>Test class: com.vtiger.contactTest.CreateContactWithoutMandatoryDetailsTest<br/>
+<a href="#Output-99132505" onClick='toggleBox("Output-99132505", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-99132505" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-99132505">
+CreateContactWithoutMandatoryDetails successfully Validated === PASS<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.vtiger.contactTest.CreateContactWithoutMandatoryDetailsTest@462d5aee</td></tr>
+<tr>
+<td title='com.vtiger.contactTest.SearchContactUsingContactIDTest.searchContactUsingContactIDTest()'><b>searchContactUsingContactIDTest</b><br>Test class: com.vtiger.contactTest.SearchContactUsingContactIDTest<br/>
+<a href="#Output-1331946439" onClick='toggleBox("Output-1331946439", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1331946439" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1331946439">
+SearchContactUsingContactID sucessfully Validated === PASS<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>com.vtiger.contactTest.SearchContactUsingContactIDTest@757942a1</td></tr>
+<tr>
+<td title='com.vtiger.contactTest.SearchContactUsingEmailIDTest.searchContactUsingEmailIDTest()'><b>searchContactUsingEmailIDTest</b><br>Test class: com.vtiger.contactTest.SearchContactUsingEmailIDTest<br/>
+<a href="#Output-1187748003" onClick='toggleBox("Output-1187748003", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1187748003" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1187748003">
+SearchContactUsingEmailID sucessfully Validated === PASS<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>com.vtiger.contactTest.SearchContactUsingEmailIDTest@4a87761d</td></tr>
+<tr>
+<td title='com.vtiger.contactTest.SearchContactUsingFirstNameTest.searchContactUsingFirstNameTest()'><b>searchContactUsingFirstNameTest</b><br>Test class: com.vtiger.contactTest.SearchContactUsingFirstNameTest<br/>
+<a href="#Output-1903051549" onClick='toggleBox("Output-1903051549", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1903051549" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1903051549">
+SearchContactUsingFirstName sucessfully Validated === PASS<br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>com.vtiger.contactTest.SearchContactUsingFirstNameTest@66d1af89</td></tr>
+<tr>
+<td title='com.vtiger.contactTest.SearchContactUsingLastNameTest.searchContactUsingLastNameTest()'><b>searchContactUsingLastNameTest</b><br>Test class: com.vtiger.contactTest.SearchContactUsingLastNameTest<br/>
+<a href="#Output-976725249" onClick='toggleBox("Output-976725249", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-976725249" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-976725249">
+SearchContactUsingLastName sucessfully Validated === PASS<br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>com.vtiger.contactTest.SearchContactUsingLastNameTest@8646db9</td></tr>
+<tr>
+<td title='com.vtiger.contactTest.SearchContactUsingOffPhoneNoTest.searchContactUsingOffPhoneNoTest()'><b>searchContactUsingOffPhoneNoTest</b><br>Test class: com.vtiger.contactTest.SearchContactUsingOffPhoneNoTest<br/>
+<a href="#Output-1510162775" onClick='toggleBox("Output-1510162775", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1510162775" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1510162775">
+SearchContactUsingOffPhoneNo sucessfully Validated === PASS<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>com.vtiger.contactTest.SearchContactUsingOffPhoneNoTest@37374a5e</td></tr>
+<tr>
+<td title='com.vtiger.contactTest.SearchContactUsingOrganizationNameTest.searchContactUsingOrganizationNameTest()'><b>searchContactUsingOrganizationNameTest</b><br>Test class: com.vtiger.contactTest.SearchContactUsingOrganizationNameTest<br/>
+<a href="#Output-1323996324" onClick='toggleBox("Output-1323996324", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1323996324" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1323996324">
+SearchContactUsingOrganizationName sucessfully Validated === PASS<br/>
+</div>
+</td>
+<td></td>
+<td>32</td>
+<td>com.vtiger.contactTest.SearchContactUsingOrganizationNameTest@4671e53b</td></tr>
+<tr>
+<td title='com.vtiger.contactTest.SearchContactUsingTitleTest.searchContactUsingTitleTest()'><b>searchContactUsingTitleTest</b><br>Test class: com.vtiger.contactTest.SearchContactUsingTitleTest<br/>
+<a href="#Output-137685382" onClick='toggleBox("Output-137685382", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-137685382" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-137685382">
+SearchContactUsingTitle sucessfully Validated === PASS<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>com.vtiger.contactTest.SearchContactUsingTitleTest@2db7a79b</td></tr>
+</table><p>
+</body>
+</html>

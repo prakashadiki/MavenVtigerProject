@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[CreateContactWithoutMandatoryDetails successfully Validated === PASS]]>
+    </line>
+    <line>
+      <![CDATA[CreateContactWithValidData Validated successfully]]>
+    </line>
+    <line>
+      <![CDATA[SearchContactUsingContactID sucessfully Validated === PASS]]>
+    </line>
+    <line>
+      <![CDATA[SearchContactUsingEmailID sucessfully Validated === PASS]]>
+    </line>
+    <line>
+      <![CDATA[SearchContactUsingFirstName sucessfully Validated === PASS]]>
+    </line>
+    <line>
+      <![CDATA[SearchContactUsingLastName sucessfully Validated === PASS]]>
+    </line>
+    <line>
+      <![CDATA[SearchContactUsingOffPhoneNo sucessfully Validated === PASS]]>
+    </line>
+    <line>
+      <![CDATA[SearchContactUsingOrganizationName sucessfully Validated === PASS]]>
+    </line>
+    <line>
+      <![CDATA[SearchContactUsingTitle sucessfully Validated === PASS]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2019-12-01T14:02:58Z" name="Command line suite" finished-at="2019-12-01T14:08:20Z" duration-ms="322054">
+    <groups>
+    </groups>
+    <test started-at="2019-12-01T14:02:58Z" name="Command line test" finished-at="2019-12-01T14:08:20Z" duration-ms="322054">
+      <class name="com.vtiger.contactTest.CreateContactWithValidDataTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.vtiger.contactTest.CreateContactWithValidDataTest@69b0fd6f]" started-at="2019-12-01T14:03:30Z" name="configBC" finished-at="2019-12-01T14:03:36Z" duration-ms="5808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.vtiger.contactTest.CreateContactWithValidDataTest@69b0fd6f]" started-at="2019-12-01T14:03:36Z" name="configBM" finished-at="2019-12-01T14:03:45Z" duration-ms="9095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createContactWithValidDataTest()[pri:0, instance:com.vtiger.contactTest.CreateContactWithValidDataTest@69b0fd6f]" started-at="2019-12-01T14:03:45Z" name="createContactWithValidDataTest" finished-at="2019-12-01T14:04:00Z" duration-ms="14370" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[CreateContactWithValidData Validated successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContactWithValidDataTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.vtiger.contactTest.CreateContactWithValidDataTest@69b0fd6f]" started-at="2019-12-01T14:04:00Z" name="configAM" finished-at="2019-12-01T14:04:01Z" duration-ms="1695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.vtiger.contactTest.CreateContactWithValidDataTest@69b0fd6f]" started-at="2019-12-01T14:04:01Z" name="configAC" finished-at="2019-12-01T14:04:02Z" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.vtiger.contactTest.CreateContactWithValidDataTest -->
+      <class name="com.vtiger.contactTest.SearchContactUsingContactIDTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingContactIDTest@757942a1]" started-at="2019-12-01T14:04:02Z" name="configBC" finished-at="2019-12-01T14:04:09Z" duration-ms="7106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingContactIDTest@757942a1]" started-at="2019-12-01T14:04:09Z" name="configBM" finished-at="2019-12-01T14:04:19Z" duration-ms="9866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="searchContactUsingContactIDTest()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingContactIDTest@757942a1]" started-at="2019-12-01T14:04:19Z" name="searchContactUsingContactIDTest" finished-at="2019-12-01T14:04:38Z" duration-ms="19381" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SearchContactUsingContactID sucessfully Validated === PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchContactUsingContactIDTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingContactIDTest@757942a1]" started-at="2019-12-01T14:04:38Z" name="configAM" finished-at="2019-12-01T14:04:40Z" duration-ms="1674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingContactIDTest@757942a1]" started-at="2019-12-01T14:04:40Z" name="configAC" finished-at="2019-12-01T14:04:40Z" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.vtiger.contactTest.SearchContactUsingContactIDTest -->
+      <class name="com.vtiger.contactTest.SearchContactUsingTitleTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingTitleTest@2db7a79b]" started-at="2019-12-01T14:07:47Z" name="configBC" finished-at="2019-12-01T14:07:52Z" duration-ms="5491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingTitleTest@2db7a79b]" started-at="2019-12-01T14:07:52Z" name="configBM" finished-at="2019-12-01T14:08:00Z" duration-ms="8135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="searchContactUsingTitleTest()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingTitleTest@2db7a79b]" started-at="2019-12-01T14:08:00Z" name="searchContactUsingTitleTest" finished-at="2019-12-01T14:08:18Z" duration-ms="17925" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SearchContactUsingTitle sucessfully Validated === PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchContactUsingTitleTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingTitleTest@2db7a79b]" started-at="2019-12-01T14:08:18Z" name="configAM" finished-at="2019-12-01T14:08:20Z" duration-ms="1547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingTitleTest@2db7a79b]" started-at="2019-12-01T14:08:20Z" name="configAC" finished-at="2019-12-01T14:08:20Z" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.vtiger.contactTest.SearchContactUsingTitleTest -->
+      <class name="com.vtiger.contactTest.SearchContactUsingFirstNameTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingFirstNameTest@66d1af89]" started-at="2019-12-01T14:05:16Z" name="configBC" finished-at="2019-12-01T14:05:21Z" duration-ms="5580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingFirstNameTest@66d1af89]" started-at="2019-12-01T14:05:21Z" name="configBM" finished-at="2019-12-01T14:05:29Z" duration-ms="8183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="searchContactUsingFirstNameTest()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingFirstNameTest@66d1af89]" started-at="2019-12-01T14:05:29Z" name="searchContactUsingFirstNameTest" finished-at="2019-12-01T14:05:48Z" duration-ms="18377" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SearchContactUsingFirstName sucessfully Validated === PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchContactUsingFirstNameTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingFirstNameTest@66d1af89]" started-at="2019-12-01T14:05:48Z" name="configAM" finished-at="2019-12-01T14:05:49Z" duration-ms="1514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingFirstNameTest@66d1af89]" started-at="2019-12-01T14:05:49Z" name="configAC" finished-at="2019-12-01T14:05:49Z" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.vtiger.contactTest.SearchContactUsingFirstNameTest -->
+      <class name="com.vtiger.contactTest.CreateContactWithoutMandatoryDetailsTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.vtiger.contactTest.CreateContactWithoutMandatoryDetailsTest@462d5aee]" started-at="2019-12-01T14:02:58Z" name="configBC" finished-at="2019-12-01T14:03:05Z" duration-ms="7257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.vtiger.contactTest.CreateContactWithoutMandatoryDetailsTest@462d5aee]" started-at="2019-12-01T14:03:05Z" name="configBM" finished-at="2019-12-01T14:03:18Z" duration-ms="12549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createContactWithoutMandatoryDetailsTest()[pri:0, instance:com.vtiger.contactTest.CreateContactWithoutMandatoryDetailsTest@462d5aee]" started-at="2019-12-01T14:03:18Z" name="createContactWithoutMandatoryDetailsTest" finished-at="2019-12-01T14:03:28Z" duration-ms="10237" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[CreateContactWithoutMandatoryDetails successfully Validated === PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContactWithoutMandatoryDetailsTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.vtiger.contactTest.CreateContactWithoutMandatoryDetailsTest@462d5aee]" started-at="2019-12-01T14:03:28Z" name="configAM" finished-at="2019-12-01T14:03:30Z" duration-ms="2380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.vtiger.contactTest.CreateContactWithoutMandatoryDetailsTest@462d5aee]" started-at="2019-12-01T14:03:30Z" name="configAC" finished-at="2019-12-01T14:03:30Z" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.vtiger.contactTest.CreateContactWithoutMandatoryDetailsTest -->
+      <class name="com.vtiger.contactTest.SearchContactUsingOrganizationNameTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingOrganizationNameTest@4671e53b]" started-at="2019-12-01T14:06:58Z" name="configBC" finished-at="2019-12-01T14:07:04Z" duration-ms="6111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingOrganizationNameTest@4671e53b]" started-at="2019-12-01T14:07:04Z" name="configBM" finished-at="2019-12-01T14:07:13Z" duration-ms="8459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="searchContactUsingOrganizationNameTest()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingOrganizationNameTest@4671e53b]" started-at="2019-12-01T14:07:13Z" name="searchContactUsingOrganizationNameTest" finished-at="2019-12-01T14:07:45Z" duration-ms="32275" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SearchContactUsingOrganizationName sucessfully Validated === PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchContactUsingOrganizationNameTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingOrganizationNameTest@4671e53b]" started-at="2019-12-01T14:07:45Z" name="configAM" finished-at="2019-12-01T14:07:47Z" duration-ms="1662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingOrganizationNameTest@4671e53b]" started-at="2019-12-01T14:07:47Z" name="configAC" finished-at="2019-12-01T14:07:47Z" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.vtiger.contactTest.SearchContactUsingOrganizationNameTest -->
+      <class name="com.vtiger.contactTest.SearchContactUsingLastNameTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingLastNameTest@8646db9]" started-at="2019-12-01T14:05:49Z" name="configBC" finished-at="2019-12-01T14:05:55Z" duration-ms="5780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingLastNameTest@8646db9]" started-at="2019-12-01T14:05:55Z" name="configBM" finished-at="2019-12-01T14:06:05Z" duration-ms="9638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="searchContactUsingLastNameTest()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingLastNameTest@8646db9]" started-at="2019-12-01T14:06:05Z" name="searchContactUsingLastNameTest" finished-at="2019-12-01T14:06:24Z" duration-ms="18722" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SearchContactUsingLastName sucessfully Validated === PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchContactUsingLastNameTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingLastNameTest@8646db9]" started-at="2019-12-01T14:06:24Z" name="configAM" finished-at="2019-12-01T14:06:25Z" duration-ms="1683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingLastNameTest@8646db9]" started-at="2019-12-01T14:06:25Z" name="configAC" finished-at="2019-12-01T14:06:25Z" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.vtiger.contactTest.SearchContactUsingLastNameTest -->
+      <class name="com.vtiger.contactTest.SearchContactUsingOffPhoneNoTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingOffPhoneNoTest@37374a5e]" started-at="2019-12-01T14:06:25Z" name="configBC" finished-at="2019-12-01T14:06:31Z" duration-ms="5905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingOffPhoneNoTest@37374a5e]" started-at="2019-12-01T14:06:31Z" name="configBM" finished-at="2019-12-01T14:06:40Z" duration-ms="8310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="searchContactUsingOffPhoneNoTest()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingOffPhoneNoTest@37374a5e]" started-at="2019-12-01T14:06:40Z" name="searchContactUsingOffPhoneNoTest" finished-at="2019-12-01T14:06:57Z" duration-ms="17140" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SearchContactUsingOffPhoneNo sucessfully Validated === PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchContactUsingOffPhoneNoTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingOffPhoneNoTest@37374a5e]" started-at="2019-12-01T14:06:57Z" name="configAM" finished-at="2019-12-01T14:06:58Z" duration-ms="1380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingOffPhoneNoTest@37374a5e]" started-at="2019-12-01T14:06:58Z" name="configAC" finished-at="2019-12-01T14:06:58Z" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.vtiger.contactTest.SearchContactUsingOffPhoneNoTest -->
+      <class name="com.vtiger.contactTest.SearchContactUsingEmailIDTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingEmailIDTest@4a87761d]" started-at="2019-12-01T14:04:40Z" name="configBC" finished-at="2019-12-01T14:04:46Z" duration-ms="5984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingEmailIDTest@4a87761d]" started-at="2019-12-01T14:04:46Z" name="configBM" finished-at="2019-12-01T14:04:54Z" duration-ms="8516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="searchContactUsingEmailIDTest()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingEmailIDTest@4a87761d]" started-at="2019-12-01T14:04:54Z" name="searchContactUsingEmailIDTest" finished-at="2019-12-01T14:05:14Z" duration-ms="19730" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SearchContactUsingEmailID sucessfully Validated === PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchContactUsingEmailIDTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingEmailIDTest@4a87761d]" started-at="2019-12-01T14:05:14Z" name="configAM" finished-at="2019-12-01T14:05:16Z" duration-ms="1606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.vtiger.contactTest.SearchContactUsingEmailIDTest@4a87761d]" started-at="2019-12-01T14:05:16Z" name="configAC" finished-at="2019-12-01T14:05:16Z" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.vtiger.contactTest.SearchContactUsingEmailIDTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
